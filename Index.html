@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-----------FONT AEWSOM------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Abdul Rafay Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <!--Web logo-->
+            <div class="logo">
+                <img src="ar logo.png" alt="abdulrafay" class="img-logo">
+                <sub> <span>A</span>bdul <span>R</span>afay</sub>
+            </div>
+            <!--Navbar-->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!--Menu toggle -->
+            <div class="menu" onclick="toggleMenu()">☰</div>
+        </nav>
+
+    </header>
+    <!--main-->
+    <main class="main-sec">
+        <!--Section-1 Top area-->
+        <section class="section-1">
+            <!--Left div-->
+            <div class="left-div">
+                <!--download cv button-->
+                <button class="cv-btn" type="button">Download Cv <i class="fa-solid fa-download"></i></button>
+                <!--left div headings-->
+                <div class="head">
+                    <h1 class="top">Built the</h1>
+                    <h1 class="bottom">Digital Feature</h1>
+                </div>
+                <!--paragraphs-->
+                <p>I am a</p>
+
+                <span id="element" class="element"></span>
+                <p>My name is <b>Abdul Rafay</b></p>
+                <p>I craft immersive digital experiences at the intersection of creativity and technology.
+                    Specializing
+                    in Next.js, AI integration, and enterprise-grade UI systems.</p>
+                <div class="main-btns">
+                    <!--2 buttons-->
+                    <button type="button" class="main-btn">Hire Me</button>
+                    <button type="button" class="main-btn">LogIn</button>
+
+                    <!--*******GITHUB--PROFILE**********-->
+                    <a href="https://github.com/mabdulrafay749" class="a"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+            </div>
+            <!--right div-->
+            <div class="right-div"><img src="main.jpeg" alt="Profile"></div>
+        </section>
+
+        <!--java script-->
+        <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web developer', 'Web designer', 'Graphic designer.'],
+                typeSpeed: 50,
+            });
+        </script>
+
+
+
+        <!--Section-2---------------------------------------Bottom area-->
+        <section id="about" class="section-2">
+            <h1>Who <span>I Am</span></h1>
+            <p>My journey from a curious student to a full-stack developer and AI engineer.
+            </p>
+            <!--another div top-->
+            <div class="ex-div1">
+                <!--Left div-->
+                <div class="div-left">
+                    <img src="left.png" alt="">
+                </div>
+                <!--Right div-->
+                <div class="div-right">
+                    <div class="road">
+                        <div class="line"></div>
+                        <h3>About Me</h3>
+                    </div>
+                    <p>I am a student of Computer science & Now i am just a <span>Student</span> and <span>Front-end web
+                            developer</span> but i do
+                        many works in differnet fields and i know how to write clean and best code, solving problems,
+                        bugs & errors only on small level.</p>
+                </div>
+            </div>
+            <!--Another Div bottom-->
+            <div class="ex-div2">
+                <!--div 1-->
+                <div class="div-1">
+                    <p>Recently i take admission in "Bachelor program of Computer science" from NED university. i want
+                        to do Specialization in It, Cit, Cs, Ai/Machine learning.
+                    </p>
+                    <button class="p-btn">View qualification</button>
+                </div>
+                <!--div 2-->
+                <div class="div-2">
+                    <p>I worked in different fields but recently i worked in PBD Pvt Ltd.
+
+                    </p>
+                    <button class="p-btn">View experience</button>
+                </div>
+                <!--div 3-->
+                <div class="div-3">
+                    <p>I created some websites, make some unique webs by web designing.</p>
+                    <button class="p-btn">View projects</button>
+                </div>
+            </div>
+        </section> <!--All closed-->
+
+
+
+        <!---------------------PROFESSIONAL----COMMAND------------------------------------------SKILL-----SECTION------------------------>
+        <section class="skill-container" id="skill">
+            <h1>my professional <span>skills</span></h1>
+            <h2>what i do</h2>
+            <div class="progress-container">
+                <!--****left****-->
+                <div class="left-bars click">
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>web development</h3> <span>84%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line first"></div>
+                        </div>
+                    </div><!--div end here-->
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>responsive development</h3> <span>67%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line second"></div>
+                        </div>
+                    </div><!--div end here-->
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>web designing</h3> <span>56%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line third"></div>
+                        </div>
+                    </div><!--div end here-->
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>web creating tools use</h3> <span>71%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line fourth"></div>
+                        </div>
+                    </div><!--div end here-->
+                </div>
+                <!--****right****-->
+                <div class="right-bars click">
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>microsoft tool use</h3> <span>53%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line fifth"></div>
+                        </div>
+                    </div><!--div end here-->
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>office stationary, letter, application making</h3> <span>60%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line sixth"></div>
+                        </div>
+                    </div><!--div end here-->
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>invoices, str, sales tax manging & making</h3> <span>73%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line seventh"></div>
+                        </div>
+                    </div><!--div end here-->
+                    <!--divs bars start here -->
+                    <div class="bar-container">
+                        <h3>other tool use</h3> <span>59%</span>
+                        <div class="progress-bar">
+                            <div class="barLine bar-line eighth"></div>
+                        </div>
+                    </div><!--div end here-->
+                </div>
+            </div>
+            </div>
+            <!--**all---divs----end**-->
+        </section>
+        <!--------SCRIPT--TAG---J.S----------->
+
+        <!------------------------------------------------------------------------------NEW-----SECTION--SKILLS--SEC----------------------->
+        <section class="skill-sec">
+            <!-----------------------SKILLS HEADING-------------------------------->
+            <h1>Other<span> Abilities</span></h1>
+            <!-------------------SUB HEADING-------------------------------------->
+            <h2>programming languages & tools use</h2>
+            <div class="cards">
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" />
+                    </div>
+                    <span>html</span>
+                    <div class="bar">
+                        <div class="progress html">100%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" />
+                    </div>
+                    <span>css 3</span>
+                    <div class="bar">
+                        <div class="progress css">87%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+                    </div>
+                    <span>javaScript</span>
+                    <div class="bar">
+                        <div class="progress js">39%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+                    </div>
+                    <span>python</span>
+                    <div class="bar">
+                        <div class="progress python">35%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+                    </div>
+                    <span>Figma</span>
+                    <div class="bar">
+                        <div class="progress figma">40%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-plain.svg" />
+                    </div>
+                    <span>adobe illustrator</span>
+                    <div class="bar">
+                        <div class="progress illustrator">87%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-plain.svg" />
+                    </div>
+                    <span>adobe photoshop</span>
+                    <div class="bar">
+                        <div class="progress photoshop">82%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" />
+                    </div>
+                    <span>canva</span>
+                    <div class="bar">
+                        <div class="progress canva">69%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/almalinux/almalinux-original.svg" />
+                    </div>
+                    <span>ui/ux</span>
+                    <div class="bar">
+                        <div class="progress user">41%</div>
+                    </div>
+                </div>
+                <!--card-->
+                <div class="card">
+                    <div class="icon">
+
+                        <img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg" />
+
+                    </div>
+                    <span>wordpress</span>
+                    <div class="bar">
+                        <div class="progress wr">22%</div>
+                    </div>
+                </div>
+                <!--card-->
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!---------------------Footer-----------------section------------------->
+    <footer id="contact" class="main-footer">
+        <article>
+            <div class="msg-box">
+                <h3>message me</h3>
+                <div class="container">
+                    <form action="#" class="form">
+                        <input type="text" placeholder="Enter first name">
+                        <input type="text" placeholder="Enter last name">
+                    </form>
+                    <form action="#" class="form">
+                        <input type="email" placeholder="enter your email">
+                        <input type="email" placeholder="enter your mobile number">
+                    </form>
+                    <input type="text" placeholder="subject">
+                    <textarea name="" id="" cols="25" rows="8" placeholder="write your message to me"></textarea>
+                </div>
+                <button class="sub-btn" type="submit">send message<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </article>
+        <!------------------------REAL--------FOOTER--------------------->
+        <div class="footer">
+            <h1>Contact <span>Us</span></h1>
+            <div class="footer-container">
+                <!--------------box-------1--------------->
+                <div class="footer-box">
+                    <h3>Info</h3>
+                    <p><i class="fa-solid fa-phone"></i> 03151213672</p>
+                    <p><a href="mailto:mabdulrafay749@gamil.com"><i class="fa-solid fa-envelope"></i>
+                            mabdulrafay749@gamil.com</a></p>
+                    <Address> <i class="fa-regular fa-address-book"></i> Karachi, Pakistan</Address>
+                </div>
+                <!------------box------------2------------->
+                <div class="footer-box">
+                    <h3>links</h3>
+                    <ul class="links">
+                        <li><a href="https://www.facebook.com/share/1JUJwzW1Mn/"><i
+                                    class="fa-brands fa-square-facebook"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/abdulrafay_wri8s?igsh=NHhlMmVxcHIzOTMw"><i
+                                    class="fa-brands fa-square-instagram"></i> instagram</a></li>
+                        <li><a href="https://wa.me/qr/HXVLPZMEHRV4F1" type="phone"><i
+                                    class="fa-brands fa-square-whatsapp"></i> whatsapp</a></li>
+                    </ul>
+                </div>
+                <!-------BOX----------3---------->
+                <div class="footer-box">
+
+                </div>
+            </div>
+            <p class="copyright">
+                &copy; 2025 Abdul Rafay. All rights reserved.
+            </p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+
+</html>
