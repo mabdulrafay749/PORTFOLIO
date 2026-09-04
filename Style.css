@@ -24,8 +24,9 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh;
-animation: pageLoad 2s ease;
+    animation: pageLoad 2s ease;
 }
+
 @keyframes pageLoad {
     from {
         opacity: 0;
@@ -58,16 +59,19 @@ animation: pageLoad 2s ease;
     isolation: isolate;
     animation: navLoad 2s ease;
 }
-@keyframes navLoad{
-    from{
+
+@keyframes navLoad {
+    from {
         opacity: 0;
         transform: translateY(-20px);
     }
-    to{
+
+    to {
         opacity: 1;
-    transform: translateY(0);
+        transform: translateY(0);
     }
 }
+
 /* Glass layer */
 .navbar::before {
     content: "";
@@ -83,22 +87,33 @@ animation: pageLoad 2s ease;
 
     z-index: -1;
 }
-.img-logo{
-    position: relative; width: 100%; height: 100%; max-width: 50px;
-    max-height: 60px; left: 60px; top: -6px;
+
+.img-logo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 60px;
+    left: 60px;
+    top: -6px;
 }
+
 .logo {
     font-size: clamp(0.75rem, 1.11vw, 1.125rem);
     color: black;
     font-family: "Saira Stencil", sans-serif;
     font-weight: 500;
 }
-.logo sub{
+
+.logo sub {
     padding-left: 30px;
 }
-.logo span{
-    color: #0096FF;  font-size: clamp(0.75rem, 1.13vw, 1.25rem);
+
+.logo span {
+    color: #0096FF;
+    font-size: clamp(0.75rem, 1.13vw, 1.25rem);
 }
+
 .nav-links {
     display: flex;
     gap: 3.5rem;
@@ -135,15 +150,18 @@ animation: pageLoad 2s ease;
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.menu:hover{
+
+.menu:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.08);
     border-color: #0096FF;
     box-shadow: 0 0 8px rgba(0, 150, 255, 0.5);
 }
-.menu:active{
+
+.menu:active {
     transform: scale(0.95);
 }
+
 .main-sec {
     width: 100%;
     justify-content: center;
@@ -200,30 +218,35 @@ animation: pageLoad 2s ease;
 .main-btns {
     width: 100%;
     gap: 1rem;
-    display: flex; align-items: center;
+    display: flex;
+    align-items: center;
     padding: 0.75rem 1rem;
 }
-.element{
-      font-style: none;
-      padding-left: 0.5rem;
+
+.element {
+    font-style: none;
+    padding-left: 0.5rem;
     font-weight: 400;
     font-family: "Montenegrin Gothic One", serif;
     color: black;
 
     font-size: clamp(0.75rem, 1.8vw, 1.65rem);
 }
-.fa-square-github{
-    padding: 0px; 
+
+.fa-square-github {
+    padding: 0px;
     cursor: pointer;
     font-size: clamp(1.25rem, 2.4vw, 2.5rem);
-    transition:all .3s ease;
+    transition: all .3s ease;
 }
-.fa-square-github:hover{
 
-filter: drop-shadow(0px 0px 24px purple);
-transform: scale(1.05);
+.fa-square-github:hover {
+
+    filter: drop-shadow(0px 0px 24px purple);
+    transform: scale(1.05);
 }
-.main-btn { 
+
+.main-btn {
     width: 100%;
     max-width: 110px;
     display: inline-flex;
@@ -297,7 +320,7 @@ transform: scale(1.05);
     background-clip: text;
     font-size: clamp(2rem, 5vw, 4rem);
     margin-top: -12px;
-    text-shadow: 10px 10px  16px rgb(155, 29, 155);
+    text-shadow: 10px 10px 16px rgb(155, 29, 155);
 }
 
 /*----------SPEACIAL-----TAGS------------*/
@@ -518,7 +541,7 @@ h2 {
 }
 
 .card:hover {
-   transform: rotate(360deg) scale(1.1);
+    transform: rotate(360deg) scale(1.1);
     background: linear-gradient(135deg, #E5F4FF 0%, #80C2FF 50%, #0096FF 100%);
 }
 
@@ -758,15 +781,19 @@ textarea {
     justify-content: center;
     background-color: #0096FF;
 }
-.footer h1{
+
+.footer h1 {
     display: flex;
 }
+
 .footer span {
-    color: white; padding-left: 0.45rem;
+    color: white;
+    padding-left: 0.45rem;
 }
 
 .footer-container {
-    width: auto; height: auto;
+    width: auto;
+    height: auto;
     text-align: start;
     display: flex;
     gap: 8rem;
@@ -777,7 +804,8 @@ textarea {
     text-align: start;
     height: auto;
     width: auto;
-    padding: 1.25rem 0rem; align-items: start;
+    padding: 1.25rem 0rem;
+    align-items: start;
 }
 
 .footer-box p,
@@ -795,15 +823,20 @@ address {
     font-family: "Raleway", sans-serif;
     text-transform: capitalize;
 }
-input:focus, textarea:focus{
+
+input:focus,
+textarea:focus {
     border: 1px solid #0096FF;
     box-shadow: 0 0 8px rgba(0, 150, 255, 0.5);
     background-color: #f9f9f9;
 }
-.sub-btn:hover{
-    color: white; transform: scale(1.02) ;
+
+.sub-btn:hover {
+    color: white;
+    transform: scale(1.02);
     background: linear-gradient(135deg, #E5F4FF 0%, #0096FF 100%);
 }
+
 .footer-box p,
 .links li,
 a,
@@ -817,9 +850,12 @@ address:hover,
 .links li a:hover {
     color: white;
 }
-.copyright{
-    padding: 0.5rem 1.5rem; color: black;
+
+.copyright {
+    padding: 0.5rem 1.5rem;
+    color: black;
 }
+
 /****---------------Tablet----------****--------responsive---------------****/
 @media(max-width:1024px) {
     body {
@@ -845,14 +881,18 @@ address:hover,
         display: block;
         cursor: pointer;
         position: relative;
-        z-index: 1002; margin-right: 3rem;
+        z-index: 1002;
+        margin-right: 3rem;
     }
-.fa-square-github{
-    font-size: 3rem;
-}
-.main-btns{
-gap: 3rem;
-}
+
+    .fa-square-github {
+        font-size: 3rem;
+    }
+
+    .main-btns {
+        gap: 3rem;
+    }
+
     .nav-links {
         display: none;
         left: 0;
@@ -999,13 +1039,16 @@ gap: 3rem;
     .bar {
         height: 12px;
     }
-.skill-container{
-    padding: 5rem 0rem 0rem 0rem;
-}
-.progress-container{
-    padding: 0rem 4rem; align-items:center;
-justify-content: center;
-}
+
+    .skill-container {
+        padding: 5rem 0rem 0rem 0rem;
+    }
+
+    .progress-container {
+        padding: 0rem 4rem;
+        align-items: center;
+        justify-content: center;
+    }
 
     /**----------------------original----------footer----------------------**/
     article {
@@ -1065,6 +1108,7 @@ justify-content: center;
         cursor: pointer;
         position: relative;
         z-index: 1002;
+        margin-right: 0rem;
     }
 
     .nav-links {
@@ -1083,9 +1127,10 @@ justify-content: center;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
     }
-.logo{
-margin-left: -4rem;
-}
+
+    .logo {
+        margin-left: -4rem;
+    }
 
     .nav-links li {
         margin-top: 12px;
@@ -1137,6 +1182,7 @@ margin-left: -4rem;
         text-align: center;
         font-size: 0.7rem;
         border-radius: 0.35rem;
+        margin-top: 1rem;
     }
 
     .main-btn {
@@ -1205,12 +1251,15 @@ margin-left: -4rem;
     .skill-container {
         padding: 4rem 0rem 0rem 0rem;
     }
-    .main-btns{
+
+    .main-btns {
         gap: 1.125rem;
     }
-.fa-square-github{
-     font-size: 2.5rem;
-}
+
+    .fa-square-github {
+        font-size: 2.5rem;
+    }
+
     .progress-container {
         flex-wrap: wrap;
         padding: 0rem 1.2rem;
@@ -1234,11 +1283,12 @@ margin-left: -4rem;
     }
 
     .cards {
-    flex-wrap: wrap;
-    gap: 1rem;
-    padding: 0.375rem 0;
-    width: 100%;
-}
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0.375rem 0;
+        width: 100%;
+    }
+
     .card {
         width: 100%;
         padding: 0.5rem;
@@ -1290,16 +1340,17 @@ margin-left: -4rem;
         height: auto;
         flex-wrap: wrap;
         text-align: center;
-        gap: 0.5rem; 
+        gap: 0.5rem;
         padding: 0.75rem 2.75rem;
     }
 
-    .footer-container { height: auto;
+    .footer-container {
+        height: auto;
         gap: 0.125rem;
         text-align: start;
         flex-wrap: wrap;
         align-items: center;
-        
+
     }
 
 }
